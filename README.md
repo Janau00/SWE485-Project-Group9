@@ -1,7 +1,10 @@
 # Heart Disease Prediction (SWE485 Phase 1)
 
 ## Motivation
-Heart disease is a major global health challenge. This project aims to build a supervised machine learning classifier to support early risk detection using clinical and demographic patient data.
+Heart disease remains one of the leading causes of death worldwide, making early detection and prevention essential for improving patient outcomes. Many cardiovascular conditions develop silently over time, and patients may not recognize symptoms until serious complications occur.  
+
+This project aims to build a supervised machine learning classification system that predicts the presence of heart disease using clinical and demographic patient data, such as age, blood pressure, cholesterol levels, and exercise-related measurements.  
+
 
 
 ## Team Members
