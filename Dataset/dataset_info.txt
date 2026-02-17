@@ -1,1 +1,11 @@
+Dataset Name: Heart Disease Dataset
+
+Source (Kaggle URL):
+https://www.kaggle.com/datasets/johnsmith88/heart-disease-dataset
+
+License Information:
+Unknown (as stated on Kaggle)
+
+Original Purpose:
+This dataset is intended for medical risk prediction and binary classification to determine whether a patient has heart disease based on clinical and demographic measurements.
 
