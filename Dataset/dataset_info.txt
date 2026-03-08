@@ -1,11 +1,10 @@
-Dataset Name: Heart Disease Dataset
-
-Source (Kaggle URL):
-https://www.kaggle.com/datasets/johnsmith88/heart-disease-dataset
+Kaggle Dataset URL:
+https://www.kaggle.com/datasets/cherngs/heart-disease-cleveland-uci
 
 License Information:
-Unknown (as stated on Kaggle)
+Creative Commons Attribution 4.0 International (CC BY 4.0)
 
-Original Purpose:
-This dataset is intended for medical risk prediction and binary classification to determine whether a patient has heart disease based on clinical and demographic measurements.
-
+Brief Description of Original Purpose:
+The dataset was created to support research on predicting heart disease using
+clinical patient data such as age, sex, chest pain type, blood pressure,
+cholesterol, and other medical attributes.
