@@ -1,0 +1,17 @@
+Feature,Importance
+ST_Slope_Flat,0.23879047
+ST_Slope_Up,0.23166676
+ExerciseAngina,0.1818861
+Oldpeak,0.046594437
+Sex,0.046586707
+ChestPainType_ATA,0.04276296
+ChestPainType_NAP,0.037979145
+FastingBS,0.03581614
+MaxHR,0.022539275
+ChestPainType_TA,0.022325445
+Chol_category_Borderline High,0.020447554
+RestingBP,0.017629363
+RestingECG_Normal,0.017156176
+Age,0.016101757
+Chol_category_High,0.012360969
+RestingECG_ST,0.00935678

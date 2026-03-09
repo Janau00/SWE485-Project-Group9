@@ -1,0 +1,6 @@
+Metric,Train Mean,Validation Mean,Gap,Std Dev
+Accuracy,0.9335,0.8677,0.0658,0.0228
+Precision,0.9326,0.8675,0.0651,0.0481
+Recall,0.9481,0.9037,0.0444,0.0275
+F1-Score,0.9403,0.8836,0.0567,0.0145
+ROC-AUC,0.984,0.9292,0.0548,0.0136
