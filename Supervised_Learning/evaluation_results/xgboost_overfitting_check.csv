@@ -1,5 +1,0 @@
-Metric,Train Score,Val Score,Gap,Status
-Accuracy,0.9335,0.8677,0.0658,  Mild
-Recall,0.9481,0.9037,0.0444, Healthy
-F1-Score,0.9403,0.8836,0.0567,  Mild
-ROC-AUC,0.984,0.9292,0.0548,  Mild

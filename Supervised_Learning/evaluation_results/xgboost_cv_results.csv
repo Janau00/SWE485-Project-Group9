@@ -1,6 +1,0 @@
-Metric,Mean,Std Dev
-Accuracy,0.8677,0.0228
-Precision,0.8675,0.0481
-Recall,0.9037,0.0275
-F1-Score,0.8836,0.0145
-ROC-AUC,0.9292,0.0136
