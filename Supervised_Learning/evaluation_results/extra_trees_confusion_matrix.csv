@@ -1,3 +1,2 @@
-,Predicted: No Disease,Predicted: Heart Disease
-Actual: No Disease,65,17
-Actual: Heart Disease,7,95
+TN,FP,FN,TP
+65,17,7,95
