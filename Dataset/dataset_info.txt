@@ -1,8 +1,8 @@
 Kaggle Dataset URL:
-https://www.kaggle.com/datasets/cherngs/heart-disease-cleveland-uci
+https://www.kaggle.com/datasets/fedesoriano/heart-failure-prediction
 
-License Information:
-Creative Commons Attribution 4.0 International (CC BY 4.0)
+License Information: Open Data Commons Open Database License (ODbL) v1.0
+Attribution: © Original Authors
 
 Brief Description of Original Purpose:
 The dataset was created to support research on predicting heart disease using
