@@ -1,0 +1,338 @@
+ACE (angiotensin-converting enzyme) inhibitor
+Abdomen
+Abdominal aorta
+Ablation
+Acetylcholine
+Acquired heart disease
+Alveoli
+Amiodarone
+Aneurysm
+Angina or angina pectoris
+Angiography
+Angioplasty
+Angiotensin II receptor blocker
+Annulus
+Antiarrhythmics
+Anticoagulant
+Antihypertensive
+Antiplatelet therapy
+Aorta
+Aortic valve
+Aphasia
+Arrhythmia (or dysrhythmia)
+Arrhythmogenic right ventricular dysplasia (ARVD)
+Arteriography
+Arterioles
+Arteriosclerosis
+Arteritis
+Artery
+Artificial heart
+Ascending aorta
+Aspirin
+Atherectomy
+Atherosclerosis
+Atrial flutter
+Atrial septal defect
+Atrial tachycardia
+Atrioventricular (AV) node
+Atrioventricular block
+Atrium
+Atrium (right and left)
+Autologous
+Autoregulation
+Bacteria
+Bacterial endocarditis
+Balloon catheter
+Balloon valvuloplasty
+Beta-blocker
+Biopsy
+Blalock-Taussig procedure
+Blood clot
+Blood pressure
+Blue babies
+Body mass index (BMI)
+Bradycardia
+Bridge to transplant
+Bruit
+Bundle branch block
+Bypass
+Calcium channel blocker (or calcium blocker)
+Capillaries
+Cardiac
+Cardiac amyloidosis
+Cardiac arrest
+Cardiac cachexia
+Cardiac catheterization
+Cardiac enzymes
+Cardiac output
+Cardiologist
+Cardiology
+Cardiomegaly
+Cardiomyopathy
+Cardiopulmonary bypass
+Cardiopulmonary resuscitation (CPR)
+Cardiovascular (CV)
+Cardiovascular Disease (CVD)
+Cardioversion
+Carotid artery
+Cerebral embolism
+Cerebral hemorrhage
+Cerebral thrombosis
+Cerebrovascular
+Cerebrovascular accident
+Cerebrovascular occlusion
+Cholesterol
+Cineangiography
+Circulatory system
+Claudication
+Collateral circulation
+Commissurotomy
+Computed tomography (CT or CAT scan)
+Conduction system
+Congenital
+Congenital heart defects
+Congestive heart failure
+Coronary arteries
+Coronary artery anomaly (CAA)
+Coronary artery bypass (CAB)
+Coronary artery disease (CAD)
+Coronary heart disease
+Coronary occlusion
+Coronary thrombosis
+Cryoablation
+Cyanosis
+Cyanotic heart disease
+Death rate (age-adjusted)
+Deep vein thrombosis
+Defibrillator
+Diabetes (diabetes mellitus)
+Diastolic blood pressure
+Digitalis
+Dissecting aneurysm
+Diuretic
+Doppler ultrasound
+Dysarthria
+Dyspnea
+Echocardiography
+Edema
+Ejection fraction
+Electrocardiogram (ECG or EKG)
+Electroencephalogram (EEG)
+Electrophysiological study (EPS)
+Embolus
+Endarterectomy
+Endocarditis
+Endocardium
+Endothelium
+Enlarged heart
+Enzyme
+Epicardium
+Estrogen
+Estrogen (or hormone) replacement therapy (ERT or HRT)
+Exercise stress test
+Familial hypercholesterolemia
+Fatty acids (fats)
+Fibrillation
+First-degree heart block
+Flutter
+Fusiform aneurysm
+Gated blood pool scan
+Genetic testing
+Guidewire
+Heart assist device
+Heart attack
+Heart block
+Heart failure
+Heart murmur
+Heart-lung machine
+Hematocrit
+Hemochromatosis
+Heredity
+High blood pressure
+High density lipoprotein (HDL)
+Holter monitor
+Homocysteine
+Hypertension
+Hypertrophic obstructive cardiomyopathy (HOCM)
+Hypertrophy
+Hyperventilation
+Hypoglycemia
+Hypokinesia
+Hypotension
+Hypoxia
+Idiopathic
+Immunosuppressants
+Impedance plethysmography
+Incompetent valve
+Infarct
+Infective endocarditis
+Inferior vena cava
+Inotropes
+Internal mammary artery
+Intravascular echocardiography
+Introducer sheath
+Ischemia
+Ischemic heart disease
+Ischemic stroke
+Jugular veins
+Left ventricular assist device (LVAD)
+Lesion
+Lipid
+Lipoprotein
+Low density lipoprotein (LDL)
+Magnetic resonance imaging (MRI)
+Maze surgery
+Mitral stenosis
+Mitral valve
+Mitral valve prolapse
+Mitral valve regurgitation
+Monounsaturated fats
+Mortality
+Murmur
+Myocardial infarction
+Myocardial ischemia
+Myocarditis
+Myocardium
+Myxomatous degeneration
+NSTEMI
+Necrosis
+Nitroglycerin
+Noninvasive procedures
+Obesity
+Occluded artery
+Open heart surgery
+Pacemaker
+Palpitation
+Pancreas
+Pancreatitis
+Paralysis
+Paroxysmal supraventricular tachycardia (PSVT)
+Patent ductus arteriosus
+Patent foramen ovale
+Percutaneous coronary intervention (PCI)
+Percutaneous transluminal coronary angioplasty (PTCA)
+Pericardiocentesis
+Pericarditis
+Pericardium
+Plaque
+Platelets
+Polyunsaturated fat
+Positron emission tomography (PET)
+Postural orthostatic tachycardia syndrome (POTS)
+Premature ventricular contraction (PVC)
+Prevalence
+Pulmonary
+Pulmonary embolism
+Pulmonary valve
+Pulmonary vein
+Radial artery access
+Radionuclide imaging
+Radionuclide studies
+Radionuclide ventriculography
+Regurgitation
+Renal
+Restenosis
+Revascularization
+Rheumatic fever
+Rheumatic heart disease
+Right ventricular assist device (RVAD)
+Risk factor
+Rubella
+STEMI
+Saccular aneurysm
+Sarcoidosis
+Saturated fat
+Second-degree heart block
+Septal defect
+Septum
+Sheath
+Shock
+Shunt
+Sick sinus syndrome
+Silent ischemia
+Sinus (SA) node
+Sodium
+Sphygmomanometer
+Stem cells
+Stenosis
+Stent
+Sternum
+Stethoscope
+Stokes-Adams disease
+Streptococcal infection (“strep” infection)
+Streptokinase
+Stress
+Stroke
+Subarachnoid hemorrhage
+Subclavian arteries
+Sudden death
+Superior vena cava
+Supraventricular tachycardia (SVT)
+Syncope
+Systolic blood pressure
+Tachycardia
+Tachypnea
+Tamponade
+Thallium-201 stress test
+Third-degree heart block
+Thrombolysis
+Thrombolytic therapy
+Thrombosis
+Thrombus
+Thyroid
+Tissue plasminogen activator (tPA)
+Trans fat
+Transcatheter aortic valve implantation (TAVI)
+Transcatheter intervention
+Transesophageal echocardiography
+Transient ischemic attack (TIA)
+Transplantation
+Tricuspid valve
+Triglyceride
+Ultrasound
+Valve replacement
+Valvuloplasty
+Varicose vein
+Vascular
+Vasodilators
+Vasopressors
+Vein
+Ventricle (right and left)
+Ventricular Assist Device (VAD)
+Ventricular fibrillation
+Ventricular tachycardia
+Vertigo
+Wolff-Parkinson-White syndrome
+X-rayblood
+arteries
+artery
+atherosclerosis
+blockage
+cardiac
+chest
+coronary
+depression
+diabetes
+diastolic
+electrical
+exercise
+flow
+glucose
+hypertension
+ischemia
+mm Hg
+myocardial
+oxygen
+pain
+plaque
+pressure
+rate
+slope
+stress
+stroke
+sugar
+systolic
+triglycerides
+vascular
+vessels
+
