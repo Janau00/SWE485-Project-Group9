@@ -1,11 +1,11 @@
-# Meeting Notes — SWE485 Project Group 9
+Meeting Notes — SWE485 Project Group 9
  
----
+==========================================================
  
-## Meeting 1 — 26 February 2025
-**Agenda:** Supervised Model Selection
+Meeting 1 — 26 February 2025
+Agenda: Supervised Model Selection
  
-### Notes
+Notes
 - Which models should we use?
 - Agreed on XGBoost, Random Forest, and Extra Trees
 - How do we split the data? → 80/20
@@ -14,15 +14,16 @@
 - Not using F1 since the data is balanced
 - Should we tune hyperparameters? → Yes, using GridSearchCV
 - Each member trains their assigned model and brings results to next meeting
----
  
-## Meeting 2 — 18 March 2025
-**Agenda:** Best Model Selection 
+==========================================================
  
+Meeting 2 — 18 March 2025
+Agenda: Best Model Selection
+ 
+Notes
 - Reviewed results from all three models
 - Discussed the trade-off between the results of the three models
 - XGBoost had the best results → selected as the final model
 - What do we do with the model in Phase 2? → Use its prediction label as input to the prompt
-
-
----
+ 
+==========================================================
