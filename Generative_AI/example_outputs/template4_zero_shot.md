@@ -94,8 +94,10 @@
 | Prediction | No Heart Disease |
 
 #### Response
-> The result suggests that there is no current strong indication of heart disease. Your overall clinical profile appears reassuring, particularly with a normal ECG, no exercise-related chest discomfort, and a good heart rate response and favorable heart activity pattern during exercise. These factors are commonly associated with a lower cardiovascular risk profile. However, it is still important to maintain healthy habits such as regular exercise, balanced nutrition, and routine medical checkups to support long-term heart health.
+> Based on the information, your heart health outlook appears reassuring, indicating no heart disease at this time. It's great that your heart's electrical activity is normal and you don't experience chest discomfort with exercise.
 
+> We noticed your cholesterol level of 210 is a little higher than ideal, and your fasting blood sugar of 100 is at the upper end of the normal range. It's also a good idea to ensure your blood pressure is regularly checked and within a healthy range.
 
+> Focusing on a balanced diet, regular physical activity, and routine check-ups with your doctor can help keep your heart healthy and manage these numbers effectively. Your doctor can offer personalized advice and support.
 
 ---
