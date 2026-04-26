@@ -1,0 +1,41 @@
+## Meeting 1 — 13 April 2025
+**Agenda:** Phase 2 Template Structure
+ 
+### Notes
+- What should each template include? → Agreed on defining the intended user, the prompting technique, and the objective for each template
+- Which techniques do we use? → Generated Knowledge Prompting, Chain of Thought, Few Shot, Zero Shot
+- Who is each template for? → Each template targets a different user profile
+- What is the objective of the prompt? → Generate a personalised cardiovascular insight based on the prediction label and clinical feature values
+- Should all templates share the same input? → Yes, agreed on using the same input structure across all templates
+- Should all templates share the same output goal? → Yes, the output is always a personalised health insight but the technique and user differ
+- Next meeting to discuss evaluation criteria
+---
+ 
+## Meeting 2 — 19 April 2025
+**Agenda:** Evaluation Criteria Selection
+ 
+### Notes
+- How do we evaluate the templates? → Agreed on both qualitative and quantitative metrics
+- Qualitative metrics:
+  - Edge-case handling → does the model handle implausible inputs?
+  - Instruction following → personalisation, context, safety/no diagnosis
+- Quantitative metrics:
+  - Flesch-Kincaid Readability Score
+  - Domain Keyword Density
+  - Medical Accuracy
+  - Passive Voice Rate
+- How do we measure domain keyword density? → By inspection against a cardiovascular reference list built from the Texas Heart Institute glossary
+- How do we measure passive voice? → Using spacy with the nsubjpass dependency tag
+- How do we measure readability? → Using the textstat library in Python
+- Next meeting to compare results and select the best template
+---
+ 
+## Meeting 3 — 21 April 2025
+**Agenda:** Results Discussion and Best Template Selection
+ 
+### Notes
+- Reviewed and compared the evaluation results across all four templates
+- Discussed the qualitative and quantitative performance of each template
+- Which template performed best overall? → Template 2 (Chain of Thought) selected as the best template
+- Discussed limitations and ethical considerations of deploying the selected template
+- Agreed on final documentation structure 
