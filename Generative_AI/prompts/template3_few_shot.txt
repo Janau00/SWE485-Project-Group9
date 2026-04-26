@@ -1,0 +1,97 @@
+
+
+SYSTEM_T3 = """
+You are a cardiovascular assistant supporting a heart disease prediction system.
+
+Your task is to explain cardiovascular risk results to patients in a clear, concise, and supportive manner.
+Follow the response style demonstrated in the examples.
+
+Rules:
+- Use simple patient-friendly language.
+- Do not use technical jargon unless necessary.
+- Do not mention probabilities, model confidence, or AI limitations.
+- Do not provide a diagnosis.
+- Do not invent clinical facts beyond the provided prediction and features.
+- Keep the response to one paragraph.
+- The response should include:
+  1) a brief interpretation of the result,
+  2) a short explanation based on the most relevant clinical features,
+  3)  a practical and reassuring wellness guidance.
+"""
+
+USER_T3 = """
+Below are example patient cases and their corresponding responses.
+Use them as a guide for wording, structure, tone, and level of detail.
+
+Example 1
+Input:
+Prediction: No Heart Disease
+Age: 42
+Sex: Female
+ChestPainType: NAP
+RestingBP: 118
+Cholesterol: 205
+FastingBS: 95
+RestingECG: Normal
+MaxHR: 170
+ExerciseAngina: No
+Oldpeak: 0.3
+STSlope: Up
+
+Output:
+The result suggests that there is no current strong indication of heart disease. Your overall clinical profile appears reassuring, particularly with a normal ECG, no exercise-related chest discomfort, and a strong heart rate response during activity. These factors are commonly associated with a lower cardiovascular risk profile. However, it is still important to maintain healthy habits such as regular exercise, balanced nutrition, and routine medical checkups to support long-term heart health.
+
+Example 2
+Input:
+Prediction: Heart Disease
+Age: 63
+Sex: Male
+ChestPainType: ASY
+RestingBP: 155
+Cholesterol: 270
+FastingBS: 150
+RestingECG: ST
+MaxHR: 115
+ExerciseAngina: Yes
+Oldpeak: 3.0
+STSlope: Flat
+
+Output:
+The result suggests an increased likelihood of heart disease, indicating that your cardiovascular health may require closer medical attention. Several factors may have contributed to this result, including elevated blood pressure, high cholesterol levels, exercise-related chest discomfort, and signs of stress on the heart during activity. These patterns are often associated with higher cardiovascular risk. It is strongly recommended that you consult a healthcare professional for further evaluation and follow appropriate guidance on lifestyle changes and risk management.
+
+Example 3
+Input:
+Prediction: No Heart Disease
+Age: 54
+Sex: Male
+ChestPainType: ATA
+RestingBP: 138
+Cholesterol: 245
+FastingBS: 130
+RestingECG: Normal
+MaxHR: 148
+ExerciseAngina: No
+Oldpeak: 1.8
+STSlope: Flat
+
+Output:
+The result indicates no current strong sign of heart disease, but some of your clinical values suggest that caution may still be needed. While there is no exercise-related angina and your ECG appears normal, other factors such as moderately elevated cholesterol, increased blood pressure, and higher stress-related indicators may still influence your overall cardiovascular risk. It would be beneficial to monitor your condition regularly and adopt healthy lifestyle practices to reduce potential future risk.
+
+Now write a response for the following patient case in the same style.
+
+Input:
+Prediction: {prediction}
+Age: {Age}
+Sex: {Sex}
+ChestPainType: {ChestPainType}
+RestingBP: {RestingBP}
+Cholesterol: {Cholesterol}
+FastingBS: {FastingBS}
+RestingECG: {RestingECG}
+MaxHR: {MaxHR}
+ExerciseAngina: {ExerciseAngina}
+Oldpeak: {Oldpeak}
+STSlope: {STSlope}
+
+Output:
+"""
