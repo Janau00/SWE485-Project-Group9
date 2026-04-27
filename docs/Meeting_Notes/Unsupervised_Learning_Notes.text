@@ -1,0 +1,17 @@
+Meeting 1 — 11 April 2025
+Agenda: Unsupervised Algorithm Selection
+
+Notes
+- Discussed which unsupervised algorithms to use
+- Considered different clustering techniques
+- Agreed on K-Means and HDBSCAN
+- Decided to evaluate clustering performance on the dataset
+
+Meeting 2 — 17 April 2025
+Agenda: Clustering Evaluation
+
+Notes
+- Observed weak clustering results
+- Agreed to apply VAT and Hopkins for evaluation
+- Results showed low clusterability
+- Decided to continue clustering for learning purposes
