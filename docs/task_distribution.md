@@ -2,8 +2,8 @@
 | Task | Assigned To |
 |------|------------|
 |  | Jana Alshreef| 
-|  | Reem Alharbi | 
-|  | Lana Alshehri| 
+| Preprocessing | Reem Alharbi | 
+| Preprocessing | Lana Alshehri| 
 | Supervised Learning - Random Forest | Loba Alyahya | 
 | Supervised Learning - XGBoost | Layan Alhugbani | 
 | Supervised Learning - Extrs Trees | Deema Alageefi | 
@@ -11,8 +11,8 @@
 ## Phase 2 — Task Distribution
 | Task | Assigned To |
 |------|------------|
-|  | Reem Alharbi | 
-|  | Lana Alshehri| 
+| Unsupervised Learning - K-means | Reem Alharbi | 
+| Unsupervised Learning - HDBSCAN | Lana Alshehri| 
 | Generative AI - Chain Of Thoughts | Loba Alyahya | 
 | Generative AI - Generated Knowledge | Layan Alhugbani | 
 | Generative AI - Few Shots | Jana Alshreef| 
