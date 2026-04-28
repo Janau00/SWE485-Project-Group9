@@ -1,1 +1,64 @@
-this is for interpretation for profiles
+=================================================================================================================================================================================================================
+K-MEANS CLUSTERING PROFILES (CLUSTERS = 2)
+=================================================================================================================================================================================================================
+
+Cluster 0: High Cardiovascular Risk Profile
+
+Summary:
+======================================
+Cluster 0 represents an older, predominantly male group with elevated blood pressure, reduced cardiovascular performance, and multiple indicators of ischemia, including high Oldpeak values, exercise-induced angina, and abnormal ST slope patterns.
+
+
+Detailed Interpretation:
+======================================
+Cluster 0 represents a group of relatively older individuals, with an average age above the dataset mean (53 years). This cluster is predominantly male, with approximately 86% males and only 13% females. However, this imbalance is influenced by the dataset’s overall gender distribution, where nearly 79% of the individuals are male.
+
+In terms of resting blood pressure (RestingBP), individuals in this cluster exhibit values higher than the dataset average (above 132), suggesting a tendency toward elevated blood pressure levels. Clinically, higher resting blood pressure is associated with increased cardiovascular strain and is considered a known risk factor for hypertension and coronary artery disease.
+
+Regarding fasting blood sugar (FastingBS), only 30% of individuals have values above 120, indicating that the majority maintain normal glucose levels. This suggests that, while blood pressure may contribute to cardiovascular risk in this cluster, impaired glucose regulation appears less prominent.
+
+This cluster is also characterized by lower maximum heart rate values (below 136), suggesting reduced cardiovascular performance compared to the dataset average. Additionally, individuals in this cluster show higher Oldpeak values (above 0.88), which represent ST-segment depression during exercise and are associated with reduced coronary blood flow.
+
+Furthermore, 63% of individuals in this cluster exhibit exercise-induced angina, referring to chest pain triggered by physical exertion due to insufficient blood supply to the heart.
+
+Regarding chest pain types, the dominant category in this cluster is asymptomatic (ASY), with 74% of individuals. This is followed by atypical angina (ATA) at 15%, while non-anginal pain (NAP) and typical angina (TA) are less represented. This distribution is partially influenced by the dataset proportions.
+
+For resting ECG results, 50% of individuals show normal readings, while the remaining exhibit abnormalities, including left ventricular hypertrophy (LVH) at 22% and ST-T wave abnormalities at 26%. These findings may indicate structural or electrical heart abnormalities.
+
+In terms of ST slope during exercise, the majority (70%) exhibit a flat slope, commonly associated with myocardial ischemia. Only 18% show an upsloping pattern, while approximately 10% show a downsloping pattern.
+
+Finally, cholesterol levels in this cluster show a mixed distribution. The desirable range represents 40%, followed closely by high cholesterol (38%), and borderline levels (22%). This indicates heterogeneity within the cluster, where individuals share similar cardiovascular patterns but differ in lipid levels.
+
+=================================================================================================================================================================================================================
+Cluster 1: Lower Cardiovascular Risk with Emerging Metabolic Risk
+
+Summary:
+======================================
+Cluster 1 represents a younger group with generally better cardiovascular performance and normal cardiac indicators, but with a noticeable shift toward higher cholesterol levels, suggesting emerging metabolic risk.
+
+
+Detailed Interpretation:
+======================================
+Cluster 1 represents a group of relatively younger individuals, with an average age below the dataset mean (53 years). Similar to Cluster 0, this cluster is predominantly male, although this is influenced by the dataset’s gender distribution.
+
+In terms of resting blood pressure (RestingBP), individuals in this cluster exhibit values slightly below the dataset average (below 132), indicating generally normal or mildly lower blood pressure levels.
+
+Regarding fasting blood sugar (FastingBS), only around 15% of individuals have elevated levels (>120), suggesting that most individuals maintain normal glucose regulation.
+
+This cluster is also characterized by higher maximum heart rate values (above 136), indicating better cardiovascular performance. Additionally, individuals show lower Oldpeak values (below 0.88), reflecting minimal ST-segment depression and better coronary blood flow.
+
+Exercise-induced angina is less common in this cluster, with only around 14% of individuals affected.
+
+Regarding chest pain types, atypical angina (ATA) represents the highest proportion (34%), followed by asymptomatic cases (31%) and non-anginal pain (30%), while typical angina (TA) is minimally represented (5%). This indicates a less classical symptom presentation.
+
+For resting ECG results, approximately 70% of individuals show normal ECG patterns, while abnormalities such as LVH (19%) and ST-T changes (11%) are less frequent.
+
+In terms of ST slope, the upsloping pattern is dominant (72%), which is typically considered a normal response. Flat slopes are present but less common, and downsloping patterns remain minimal.
+
+Finally, cholesterol levels show a shift toward higher categories. High cholesterol represents the largest proportion (42%), followed by borderline (30%), and desirable levels (28%). This suggests an increased likelihood of lipid-related cardiovascular risk.
+
+
+=================================================================================================================================================================================================================
+HDBSCAN CLUSTERING PROFILES (CLUSTERS = 5)
+=================================================================================================================================================================================================================
+
