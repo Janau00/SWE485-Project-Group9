@@ -1,7 +1,7 @@
 ## Phase 1 — Task Distribution
 | Task | Assigned To |
 |------|------------|
-|  | Jana Alshreef| 
+| EDA | Jana Alshreef| 
 | Preprocessing | Reem Alharbi | 
 | Preprocessing | Lana Alshehri| 
 | Supervised Learning - Random Forest | Loba Alyahya | 
