@@ -23,9 +23,9 @@ Furthermore, 63% of individuals in this cluster exhibit exercise-induced angina,
 
 Regarding chest pain types, the dominant category in this cluster is asymptomatic (ASY), with 74% of individuals. This is followed by atypical angina (ATA) at 15%, while non-anginal pain (NAP) and typical angina (TA) are less represented. This distribution is partially influenced by the dataset proportions.
 
-For resting ECG results, 50% of individuals show normal readings, while the remaining exhibit abnormalities, including left ventricular hypertrophy (LVH) at 22% and ST-T wave abnormalities at 26%. These findings may indicate structural or electrical heart abnormalities.
+For resting ECG results, 51% of individuals show normal readings, while the remaining exhibit abnormalities, including left ventricular hypertrophy (LVH) at 22% and ST-T wave abnormalities at 26%. These findings may indicate structural or electrical heart abnormalities.
 
-In terms of ST slope during exercise, the majority (70%) exhibit a flat slope, commonly associated with myocardial ischemia. Only 18% show an upsloping pattern, while approximately 10% show a downsloping pattern.
+In terms of ST slope during exercise, the majority (72%) exhibit a flat slope, commonly associated with myocardial ischemia. Only 18% show an upsloping pattern, while approximately 10% show a downsloping pattern.
 
 Finally, cholesterol levels in this cluster show a mixed distribution. The desirable range represents 40%, followed closely by high cholesterol (38%), and borderline levels (22%). This indicates heterogeneity within the cluster, where individuals share similar cardiovascular patterns but differ in lipid levels.
 
