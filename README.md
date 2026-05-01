@@ -13,7 +13,7 @@ In Phase 1, we developed a classification system using supervised machine learni
 ### Key Contributions:
 - Data exploration and preprocessing
 - Feature analysis and visualization
-- Implementation of multiple supervised models
+- Implementation of multiple supervised models (Random Forest, XGBoost, Extra Trees)
 - Model evaluation using standard metrics (accuracy, precision, recall, etc.)
 - Selection of the best-performing model for prediction
 
