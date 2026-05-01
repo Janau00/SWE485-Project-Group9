@@ -5,7 +5,7 @@ This document explains the rationale behind the four prompt templates: Zero-Shot
 ## Zero-Shot Prompting
 The zero-shot template was designed as a baseline to evaluate the model’s ability to generate explanations without guidance.
 
-In testing, zero-shot produced simple responses but lacked depth and consistency. The outputs often did not fully reflect all clinical features, leading to weaker alignment with the input data.
+From testing, zero-shot responses were generally simple and easy to read. However, they often lacked depth and did not consistently reflect all relevant clinical features. This made the explanations less informative compared to other templates.
 
 ## Few-Shot Prompting
 The few-shot template used example input-output pairs to guide structure and tone.
@@ -30,7 +30,7 @@ Unlike few-shot, CoT does not depend on similarity to examples, making it more r
 ## Generated Knowledge Prompting
 This template attempted to enrich responses by introducing additional medical knowledge.
 
-While it improved completeness, it sometimes introduced irrelevant information that was not directly tied to the patient’s input, increasing the risk of unnecessary or less focused explanations.
+While this approach improved clinical grounding, the medical accuracy score of 70.84% reveals that internally generated knowledge does not guarantee factual correctness. Even when the model actively retrieves clinical information before responding, a portion of that information can still be inaccurate or misaligned with the patient's actual values.
 
 ## Final Decision
 Chain-of-Thought was selected because it provided:

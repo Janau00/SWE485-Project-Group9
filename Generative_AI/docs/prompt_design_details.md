@@ -12,7 +12,7 @@ The few-shot template was designed to enforce a consistent tone and structure us
 The CoT template was designed to explicitly guide the model’s reasoning process. By encouraging the model to consider each clinical feature, the template aims to improve completeness and reduce missing information.
 
 ### Generated Knowledge
-The generated knowledge template was designed to simulate a knowledge-enhanced system by introducing additional medical context before generating the response.
+The generated knowledge template was designed to simulate a knowledge-enhanced system by retrieving additional medical context before generating the response.
 
 ---
 
@@ -43,9 +43,6 @@ The CoT template produced more consistent outputs because it forces the model to
 
 ### 3. Trade-off Between Simplicity and Completeness
 Zero-shot responses were simpler but often less detailed, while more structured templates provided richer explanations.
-
-### 4. Need for Input Validation
-Testing revealed that unrealistic or edge-case inputs were not handled explicitly. This suggests the need for a validation layer before passing data to the model.
 
 ---
 
