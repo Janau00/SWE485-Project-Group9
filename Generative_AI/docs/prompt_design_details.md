@@ -28,7 +28,8 @@ The healthcare domain imposed several important constraints on prompt design:
 These constraints influenced the templates as follows:
 - Few-shot examples were written in a patient-friendly tone
 - CoT was structured to reflect feature-by-feature medical reasoning
-- Generated knowledge was controlled to avoid excessive or irrelevant information
+- Generated knowledge was guided to surface cardiovascular clinical
+  knowledge relevant to the patient's specific values.
 
 
 ---
@@ -44,6 +45,8 @@ The CoT template produced more consistent outputs because it forces the model to
 ### 3. Trade-off Between Simplicity and Completeness
 Zero-shot responses were simpler but often less detailed, while more structured templates provided richer explanations.
 
+
+
 ---
 
 ## 4. Prompt Engineering Best Practices
@@ -55,7 +58,7 @@ Based on the experiment, the following best practices were identified:
 - Ensure responses are grounded in the input features
 - Maintain simple and clear language for end users
 - Limit the introduction of external or unnecessary knowledge
-- Validate inputs before generating responses
+
 
 ---
 
