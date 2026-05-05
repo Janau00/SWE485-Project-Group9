@@ -62,3 +62,161 @@ Finally, cholesterol levels show a shift toward higher categories. High choleste
 HDBSCAN CLUSTERING PROFILES (CLUSTERS = 5)
 =================================================================================================================================================================================================================
 
+
+Cluster 0: Stable Angina risk.
+
+Summary:
+======================================
+This cluster represents a relatively older, predominantly male group with high risk of cardiovascular risk profile, due to the appearance of Myocardial Ischemia symptoms, including elevated cholesterol levels, a dominant flat ST slope associated
+ with high Oldpeak values, and a high prevalence of exercise-induced angina, where chest pain appears during exertion but not at rest.
+
+
+Detailed Interpretation:
+======================================
+
+Cluster 0 represents a relatively older group, with age values above the dataset mean (53.5 years). This indicates a tendency toward older individuals, which is clinically associated with increased cardiovascular risk, as age itself is a known risk factor.
+
+The cluster is predominantly male (85%), which is slightly higher than the dataset proportion (79%). However,  the dataset is already male-dominated, and all other clusters are male-dominated , so this feature was not considered a primary distinguishing factor.
+
+In terms of resting blood pressure (RestingBP), the cluster shows values above the dataset mean (132 mmHg), which itself lies in the begging of stage 1 hypertension, making this feature clinically relevant despite the moderate increase.
+
+Regarding fasting blood sugar (FastingBS), approximately 30% of individuals show elevated levels, compared to the dataset average (23%). The overall proportion remains relatively low, suggesting that glucose levels are not a dominant risk factor in this cluster.
+
+The MaxHR values are lower than the dataset mean (136 bpm), indicating reduced heart performance. At the same time, Oldpeak values are higher than the mean  (0.88), and considering that even moderate Oldpeak values are clinically associated with ST depression,
+ this indicates a significant level of cardiac stress. Therefore, even if the value is close to the dataset mean, the feature itself represents a clinically abnormal condition and was emphasized.
+
+A key defining characteristic of this cluster is that all individuals are classified as asymptomatic (100% ASY), compared to only 54% in the dataset. This indicates a complete dominance of asymptomatic cases.
+
+Despite the absence of symptoms at rest, a very high proportion of individuals exhibit exercise-induced angina (91%), compared to only 40% in the dataset. This indicates that symptoms are triggered under physical stress, highlighting a silent but clinically significant cardiovascular risk pattern.
+
+Regarding ST slope during exercise, the flat pattern is dominant (97%), compared to 50% in the dataset. Clinically, a flat ST slope is associated with myocardial ischemia, making this a strong indicator of abnormal cardiac function and a key distinguishing feature of this cluster.
+
+Finally, cholesterol levels in this cluster are predominantly high (88%), compared to 40% in the dataset. Since high cholesterol is already considered abnormal and a major cardiovascular risk factor, this substantial increase further reinforces the high-risk profile of this cluster.
+
+=================================================================================================================================================================================================================
+Cluster 1: cardiovascular risk hidden from routine test
+
+Summary:
+======================================
+Cluster 1 represents a middle age predominantly male group with a latent cardiovascular risk profile. Individuals appear clinically normal at rest (100% asymptomatic with normal resting ECG), yet exhibit clear indicators of cardiac stress under exertion. The cluster is characterized by a high 
+prevalence of exercise-induced angina , a dominant flat ST slope pattern, and consistently elevated cholesterol levels. Despite this normal baseline, these findings suggest a high-risk condition that may be missed by routine (resting) evaluations and requires stress-based testing for detection.
+
+
+Detailed Interpretation:
+======================================
+Cluster 1 represents a relatively younger group, with age values slightly below the dataset mean (53.5 years), indicating a tendency toward middle age individuals. Since age is a known cardiovascular risk factor.
+
+The cluster is predominantly male(87%), slightly higher than the dataset distribution (79%), and therefore gender is not considered a special feature.
+
+Resting blood pressure values in this cluster are slightly below the dataset mean (132 mmHg), indicating relatively better blood pressure levels. Since the dataset mean itself lies just above the normal range, this suggests that individuals in this cluster are closer to normal blood pressure conditions.
+ Therefore, this feature does not represent a major cardiovascular risk.
+
+Regarding fasting blood sugar (FastingBS), the proportion of individuals with elevated levels is low (4%) , indicating that glucose regulation is generally normal.
+
+MaxHR values in this cluster are lower than the dataset mean (136 bpm), indicating reduced cardiovascular performance. Since a lower maximum heart rate is associated with limited cardiac response to physical exertion, this feature represents a clinically significant indicator of underlying cardiovascular dysfunction and was therefore emphasized.
+
+Exercise-induced angina is highly prevalent in this cluster (91%), indicating that most individuals experience cardiac-related symptoms under physical exertion. This reflects a strong sensitivity to stress and reinforces the presence of underlying cardiovascular abnormalities.
+
+Individuals in this cluster are 100% asymptomatic (ASY), meaning they do not report chest pain under normal resting conditions. In addition, RestingECG_Normal = 1.00, which means all individuals show a normal resting ECG. This makes the cluster difficult to detect using routine resting evaluation alone.
+
+The ST_Slope_Flat pattern is dominant, which supports the interpretation of ischemia-related risk. This feature is important because a flat ST slope is generally associated with abnormal cardiac response during exercisec.
+
+Finally, cholesterol is consistently high in this cluster. Since high cholesterol is a known cardiovascular risk factor, it reinforces the high-risk profile of the group.
+
+
+=================================================================================================================================================================================================================
+Cluster 2: The High-Risk Ischemic Paradox
+
+Summary:
+======================================
+Interestingly, Cluster 2 presents a unique profile where traditional risk factors like Resting Blood Pressure and Cholesterol are within lower or Desirable ranges. However, this cluster is clinically critical as it exhibits severe indicators 
+of cardiac distress: 60% prevalence of Exercise-induced Angina, significantly low MaxHR, and elevated Oldpeak. This suggests that for this specific group, cardiovascular risk is driven by factors other than hypertension or hypercholesterolemia, 
+making them a high-risk population that might be overlooked in standard screenings focused solely on lipid profiles.
+
+
+Detailed Interpretation:
+======================================
+Cluster 2 represents a high-risk group with clear signs of cardiovascular dysfunction. Age values are slightly above the dataset mean (≈53.5 years), indicating a tendency toward older individuals, which contributes to increased cardiovascular risk.
+
+The cluster is predominantly male, consistent with the dataset distribution, and therefore gender is not considered a distinguishing feature.
+
+In terms of resting blood pressure (RestingBP), values are lower than the dataset mean, suggesting that high blood pressure is not the primary driver of risk in this specific cluster. Instead, the cardiovascular risk is more heavily dictated by the significantly low MaxHR and elevated Oldpeak values.
+
+Fasting blood sugar (30%) shows no significant deviation from the dataset baseline (23%).
+
+A key defining feature of this cluster is very low MaxHR, significantly below the dataset mean (≈136 bpm), indicating reduced cardiovascular performance and limited heart response under stress. At the same time, Oldpeak values are elevated, suggesting ST-segment depression and reduced coronary blood flow.
+ These two features together strongly indicate myocardial ischemia and were emphasized.
+
+Exercise-induced angina is prevalent in this cluster, affecting 60% of the individuals. This is significantly higher than the dataset average of 40.5%, highlighting a strong correlation between physical exertion and myocardial ischemia in this group.
+
+Despite these abnormalities, resting ECG appears largely normal across individuals. However, this does not negate the presence of cardiovascular issues.
+
+The ST slope pattern is dominated by the flat type, which is clinically associated with myocardial ischemia and further supports the high-risk classification of this cluster.
+
+Since this is the lowest risk category in the dataset, it indicates that high cholesterol is not a contributing factor to the cardiovascular issues observed in this group. This highlights a significant clinical paradox, as these individuals exhibit high-risk symptoms despite having healthy lipid profiles.
+=================================================================================================================================================================================================================
+Cluster 3: Symptomatic Low-Risk Group
+
+Summary:
+======================================
+Cluster 3 represents a moderate-risk group characterized by observable but non-classical clinical symptoms. Unlike the more severe clusters, individuals here are generally younger than the dataset mean of 53.5 years, which naturally lowers their baseline cardiovascular risk.
+
+
+Detailed Interpretation:
+======================================
+Individuals in this cluster are generally younger than the dataset mean, which reduces baseline cardiovascular risk.
+
+Unlike clusters 0, 1, and 2, this group is not asymptomatic, indicating the presence of observable symptoms. Chest pain types are distributed across atypical angina (ATA) and non-anginal pain (NAP), suggesting that symptoms are present but not necessarily severe or classical.
+
+Resting blood pressure values are slightly below the dataset mean, indicating generally normal blood pressure levels.
+
+Fasting blood sugar remains within normal proportions and does not significantly differ from the dataset baseline, suggesting that glucose metabolism is not a major factor.
+
+Cardiovascular performance appears relatively stable, with MaxHR values close to or above the dataset mean, indicating adequate heart function.
+
+Oldpeak values are relatively low compared to high-risk clusters and compare to the mean (0.88), suggesting minimal ST-segment depression and reduced likelihood of myocardial ischemia.
+
+Exercise-induced angina is low prevalent where only 5% indviuduals are affected, indicating adequate heart function during stress.
+
+Resting ECG results show a higher proportion of normal patterns, suggesting stable electrical heart activity.
+
+The ST slope is predominantly upsloping, which is typically associated with a normal physiological response during exercise. This further supports the interpretation that this cluster represents a lower severity condition.
+
+In this cluster, cholesterol levels are typically within the Borderline High or Desirable ranges, which aligns with the overall moderate-risk profile.
+
+Overall, this cluster reflects a group with observable symptoms but without strong underlying ischemic indicators.
+
+=================================================================================================================================================================================================================
+Cluster 4: Metabolic Risk Group (High Cholesterol)
+
+Summary:
+======================================
+Cluster 4 represents the lowest cardiovascular risk group with a distinct clinical profile. Unlike other clusters, this group is entirely composed of individuals experiencing Atypical Angina (ATA), meaning they report mild or non-classical symptoms rather 
+than being asymptomatic. Despite these symptoms, the cluster shows the strongest cardiovascular performance in the dataset, with MaxHR values near or above the mean of 136 bpm and very low Oldpeak values, indicating an absence of significant myocardial ischemia.
+ Furthermore, the prevalence of upsloping ST segments, normal Resting ECG results, and stable blood pressure levels reinforce the interpretation that these individuals have healthy cardiac function and are at minimal risk for serious heart disease.
+
+
+Detailed Interpretation:
+======================================
+Cluster 4 represents a relatively lower cardiovascular risk group with stable cardiac indicators but notable metabolic concerns.
+
+Individuals in this cluster are generally younger than the dataset mean, contributing to a lower baseline cardiovascular risk.
+
+The cluster is not dominated by asymptomatic individuals, it dominated by ATA chest pain. From the good interpretation all other features except the cholesterol, it may indicate that this group came for this pain while no heart risks exist.
+
+Resting blood pressure values are close to the dataset mean(133 mmHg) , suggesting the begginige of 1 stage  thershold which is an estimated value,  generally not risky blood pressure levels.
+
+Fasting blood sugar shows no significant deviation from the dataset baseline, indicating normal glucose regulation.
+
+Cardiovascular performance is relatively strong, with MaxHR values near or above the dataset mean, indicating good heart response to physical activity.
+
+Oldpeak values are low, suggesting minimal ST-segment depression and absence of significant myocardial ischemia.
+
+Exercise-induced angina is less common in this cluster (only 2%) , further supporting the lower cardiovascular risk profile.
+
+Resting ECG results are complitly normal, indicating stable cardiac electrical activity.
+
+The ST slope is predominantly upsloping, which is associated with normal cardiac function during exercise.
+
+However, a key distinguishing feature of this cluster is consistently high cholesterol levels across individuals. Compared to the dataset (40% high cholesterol), this cluster shows a much strong concentration, indicating a significant metabolic risk.
+
