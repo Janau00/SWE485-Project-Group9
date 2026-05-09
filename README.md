@@ -21,13 +21,13 @@ In Phase 1, we developed a classification system using supervised machine learni
 
 ## Phase 2: System Enhancement
 
-###  Unsupervised Learning
-To further enhance the system, clustering techniques were applied to uncover hidden patterns in patient data.
+### Unsupervised Learning
+Clustering techniques were applied to uncover hidden patterns in patient data.
 
-- Applied multiple clustering algorithms
-- Evaluated cluster quality using standard metrics
-- Interpreted clusters to better understand patient group characteristics
-- Explored how clustering can support personalized insights
+- Investigated data clusterability using VAT, Hopkins statistic, and pairwise distribution analysis
+- Applied two clustering algorithms (K-Means and HDBSCAN)
+- Evaluated cluster quality using standard clustering metrics
+- Interpreted clusters to better understand patient group characteristics and behavioral patterns
 
 ---
 
