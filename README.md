@@ -3,7 +3,7 @@
 ## Motivation
 Heart disease remains one of the leading causes of death worldwide, making early detection and prevention essential for improving patient outcomes. Many cardiovascular conditions develop silently over time, and patients may not recognize symptoms until serious complications occur.
 
-Motivated by the growing potential of Artificial Intelligence in healthcare, this project aims to explore intelligent approaches for heart disease analysis and patient understanding. Using clinical and demographic data such as age, blood pressure, cholesterol levels, and exercise-related measurements, supervised learning techniques were used to predict the likelihood of heart disease, while clustering methods were applied to identify hidden patient patterns and groups. In addition, Generative AI was later integrated to transform technical prediction outputs into clear, patient-friendly explanations, helping make healthcare insights more understandable and accessible.
+Motivated by the growing potential of Artificial Intelligence in healthcare, this project aims to explore intelligent approaches for heart disease analysis and patient understanding. Using clinical and demographic data such as age, blood pressure, cholesterol levels, and exercise-related measurements, supervised learning techniques were used to predict the likelihood of heart disease, while clustering methods were applied to identify hidden patient patterns and groups. In addition, Generative AI was later integrated to transform technical prediction outputs into clear, patient-friendly explanations, helping make healthcare insights more understandable.
 
 ---
 
