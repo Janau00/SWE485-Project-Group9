@@ -26,7 +26,7 @@ Clustering techniques were applied to uncover hidden patterns in patient data.
 
 - Investigated data clusterability using VAT, Hopkins statistic, and pairwise distribution analysis
 - Applied two clustering algorithms (K-Means and HDBSCAN)
-- Evaluated cluster quality using standard clustering metrics
+- Evaluated cluster quality using standard clustering metrics (Silhouette Score, Density-Based Index, etc.)
 - Interpreted clusters to better understand patient group characteristics and behavioral patterns
 
 ---
